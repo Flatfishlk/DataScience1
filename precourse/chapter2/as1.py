@@ -89,7 +89,7 @@ def seventeen():
     else:
         answer_one = False
         answer_two = None
-        
+
     if B[1] == A[0]:
         answer_three = True
         answer_four = (B[0], A[1])
@@ -97,4 +97,55 @@ def seventeen():
         answer_three = False
         answer_four = None
     return answer_one, answer_two, answer_three, answer_four
-print seventeen()
+# print seventeen()
+
+def eighteen():
+    rand_matrix = np.random.randint(18, size=(3,6))
+    answer_one = np.dot(rand_matrix, rand_matrix.T)
+    return answer_one
+
+# print eighteen()
+
+def nineteen():
+    A = np.random.randint(20, size=(6,2))
+    B = np.random.randint(20, size=(6,2))
+    answer_square = A*A
+    answer_add = A + B
+    answer_subtract = A - B
+    answer_multiply = A * B
+    answer_divide = A / B
+    return answer_square, answer_add, answer_subtract, answer_multiply, answer_divide
+# print nineteen()
+
+def twenty():
+    A = np.arange(1,5,1).reshape(4,1)
+    B = np.linspace(100,300,3).reshape(1,3)
+    answer = np.add(A, B)
+    return answer
+# print twenty()
+
+def twenty_one():
+    M = np.linspace(0,99,100).reshape(10,10)
+    return M
+# print twenty_one()
+
+def twenty_two():
+    M_sum = twenty_one().sum()
+    M_mean = twenty_one().mean()
+    M_std = twenty_one().std()
+    return M_sum, M_mean, M_std
+# print twenty_two()
+
+def twenty_three():
+    col_sum = np.sum(twenty_one(), axis = 0)
+    col_mean = np.mean(twenty_one(), axis = 0)
+    col_std = np.std(twenty_one(), axis = 0)
+    return col_sum, col_mean, col_std
+# print twenty_three()
+
+def twenty_four():
+    row_sum = np.sum(twenty_one(), axis = 1)
+    row_mean = np.mean(twenty_one(), axis = 1)
+    row_std = np.std(twenty_one(), axis = 1)
+    return row_sum, row_mean, row_std
+print twenty_four()
