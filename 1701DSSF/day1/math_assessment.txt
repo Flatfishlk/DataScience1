@@ -1,0 +1,37 @@
+Math Assessment
+
+Refer to `math_assessment.pdf` for the questions. Please type your answers under
+each prompt in this document.
+
+
+1. Partial derivative of y with respect to x
+dy/dx = sin(z)e^-x
+
+2. Xy
+[14
+ 10]
+
+
+3. Is X invertible? If so, give the inverse; if not, explain why not.
+yes
+[1.5 -2
+ -0.5 1]
+
+4. Rank of X
+2
+
+5. Sample mean
+sample mean = (1+1+0+1+0)/5=0.6
+
+6. Sample variance
+sample variance = ((1-0.6)^2*3+(0-0.6)^2*2)/5 = 0.2
+
+7. Probability of data given fair coin
+20*1/2^5 = 5/8 = 0.625
+
+8. Maximum likelihood probability
+p = (1+1+0+1+0)/5 = 0.6
+prove: 20*0.6^3*0.4*2 = 0.6912 > 0.625
+
+9. P(x=T | y=b)
+P = 0.1/(0.1+0.15) = 0.4
