@@ -139,6 +139,10 @@ P(Accept) = 0.7*0.8+0.2*0.4+0.1*0.1 = 0.65
    **(Random Variable - Normal + CDF)**
 
    ```Your answer here```
+   P(X>9) = 0.2 mean = 5
+   0.2 = P( z > (9-5)/Var )
+   from table 4/Var = 0.84 Var = 4.76
+   Var^2 = 22.66
 
 
 9. The forecast says that in the next five days the chance of rain for each day
@@ -150,6 +154,8 @@ P(Accept) = 0.7*0.8+0.2*0.4+0.1*0.1 = 0.65
    **(Random Variable - Binomial)**
 
    ```Your answer here```
+   p = 1 - 0.75^5 - 5C1*0.25*0.75^4 = 0.367
+   mean = 5*0.25 = 1.25
 
 10. The number of years a radio functions is exponentially distributed with
     parameter λ = 1 / 8  . If Jones buys a used radio, what is the probability
@@ -158,3 +164,4 @@ P(Accept) = 0.7*0.8+0.2*0.4+0.1*0.1 = 0.65
     **(Random Variable - Exponential)**
 
    ```Your answer here```
+   p(x>8) = e^-1/8*8 = 0.368
